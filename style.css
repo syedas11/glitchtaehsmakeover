@@ -3,17 +3,13 @@ html{
   width: 100%;
 }
 
-span{
-  
-}
-
 .sidenav {
   height: 100%;
   width: 0;
   position: fixed;
   z-index: 1;
   top: 0;
-  right: 0;
+  left: 0;
   background-color: #4b0481;
   overflow-x: hidden;
   transition: 0.5s;
@@ -39,12 +35,7 @@ span{
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-right: 50px;
-}
-
-#main {
-  transition: margin-right 0.5s;
-  padding: 20px;
+  margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
