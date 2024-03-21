@@ -81,3 +81,38 @@ marquee{
   margin-right: auto;
   width: 50%;
 }
+
+.clubslink {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.clubdropdownmenu {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowncontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdowncontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdowncontent a:hover {background-color: #ddd;}
+
+.clubdropdownmenu:hover .dropdowncontent {display: block;}
+
+.clubdropdownmenu:hover .clubslink {background-color: #3e8e41;}
