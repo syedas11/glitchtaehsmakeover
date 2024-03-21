@@ -52,8 +52,20 @@ body{
   margin: 50px 20px 50px 20px;
 }
 
+h1{
+  text-align: center;
+}
+
+.marqueeimg{
+  height: 50px;
+  width: 50px;
+}
+
 .edisonfrontdoor{
   width: 45%;
   height: auto;
-  margin: 0px auto 0px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
