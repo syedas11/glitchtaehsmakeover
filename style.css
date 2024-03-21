@@ -9,7 +9,7 @@ html{
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0;
+  right: 0;
   background-color: #4b0481;
   overflow-x: hidden;
   transition: 0.5s;
@@ -38,6 +38,11 @@ html{
   margin-left: 50px;
 }
 
+#main {
+  transition: margin-right 0.5s;
+  padding: 20px;
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {
     padding-top: 15px;
@@ -53,17 +58,11 @@ body{
 }
 
 .taehslogo{
-  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 125px;
-  width: 125px;
-}
-
-.header{
-  display: flex;
-  justify-content: left;
+  height: 100px;
+  width: 100px;
 }
 
 h1{
