@@ -3,6 +3,10 @@ html{
   width: 100%;
 }
 
+span{
+  
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -35,7 +39,7 @@ html{
   top: 0;
   right: 25px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #main {
