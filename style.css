@@ -52,13 +52,31 @@ body{
   margin: 50px 20px 50px 20px;
 }
 
+.taehslogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 125px;
+  width: 125px;
+}
+
+.header{
+  display: flex;
+  justify-content: left;
+}
+
 h1{
   text-align: center;
 }
 
+marquee{
+  font-size: 22px;
+}
+
 .marqueeimg{
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .edisonfrontdoor{
