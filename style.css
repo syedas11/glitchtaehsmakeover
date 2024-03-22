@@ -50,6 +50,7 @@ html{
 
 body{
   margin: 50px 20px 50px 20px;
+  background-color: #02066F;
 }
 
 .taehslogo{
@@ -62,10 +63,14 @@ body{
 
 h1{
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px 8px #FFD700;
 }
 
 marquee{
   font-size: 22px;
+  color: #FFe21e;
+  text-shadow: 2px 2px 8px #FFD700;
 }
 
 .marqueeimg{
