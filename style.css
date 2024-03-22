@@ -59,6 +59,7 @@ body{
   width: 50%;
   height: 100px;
   width: 100px;
+  background-color: white;
 }
 
 h1{
@@ -71,11 +72,6 @@ marquee{
   font-size: 22px;
   color: #FFe21e;
   text-shadow: 2px 2px 8px #FFD700;
-}
-
-.marqueeimg{
-  height: 30px;
-  width: 30px;
 }
 
 .edisonfrontdoor{
