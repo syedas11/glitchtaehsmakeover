@@ -138,10 +138,14 @@ table, th, td{
   text-align: left;
   border: 2px solid;
   border-collapse: collapse;
-  border-color: #F2D400;
+  border-color: #C6C6C6;
   background-color: white;
+  padding: 10px 30px;
+  font-size: 20px;
 }
 
 th{
   background-color: #02066F;
+  color: #FFe21e;
+  text-align: center;
 }
