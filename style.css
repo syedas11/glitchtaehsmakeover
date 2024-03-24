@@ -132,3 +132,16 @@ marquee{
 .clubdropdownmenu:hover .dropdowncontent {display: block;}
 
 .clubdropdownmenu:hover .clubslink {background-color: #FFe21e;}
+
+table, th, td{
+  margin: 0px auto 0px auto;
+  text-align: left;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #F2D400;
+  background-color: white;
+}
+
+th{
+  background-color: #02066F;
+}
