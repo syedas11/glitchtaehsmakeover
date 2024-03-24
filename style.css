@@ -127,7 +127,7 @@ marquee{
   display: block;
 }
 
-.dropdowncontent a:hover {background-color: #ddd;}
+.dropdowncontent a:hover {background-color: #FFEA5C;}
 
 .clubdropdownmenu:hover .dropdowncontent {display: block;}
 
