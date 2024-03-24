@@ -30,7 +30,7 @@ html{
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: white;
 }
 
 .sidenav .closebtn {
@@ -121,7 +121,7 @@ marquee{
 }
 
 .dropdowncontent a {
-  color: black;
+  color: #02066F;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
