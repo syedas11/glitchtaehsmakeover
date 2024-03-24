@@ -10,18 +10,20 @@ html{
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #4b0481;
+  background-color: #FFe21e;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  font-family: 'Inconsolata', monospace;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  padding: 8px 8px 20px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #bfbfbf;
+  color: #02066F;
   display: block;
   transition: 0.3s;
 }
@@ -33,9 +35,9 @@ html{
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  left: 0px;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 @media screen and (max-height: 450px) {
@@ -49,7 +51,7 @@ html{
 }
 
 span{
-  
+  color: #FFe21e;
 }
 
 body{
@@ -72,6 +74,9 @@ h1{
   text-align: center;
   color: white;
   text-shadow: 2px 2px 8px #FFD700;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 marquee{
@@ -79,6 +84,9 @@ marquee{
   color: #FFe21e;
   text-shadow: 2px 2px 8px #FFD700;
   margin-bottom: 30px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .edisonfrontdoor{
